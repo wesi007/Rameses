@@ -146,11 +146,14 @@ section{
     padding: 15px 50px;
     transform: translateX(250px);
     content-visibility: hidden;
+    opacity: 0;
 }
 
 .tab.active{
     transform: translateX(0);
     content-visibility: visible;
+    opacity: 1;
+    transition: 1s ease;
 }
 
 .tab .row{

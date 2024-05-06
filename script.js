@@ -51,3 +51,9 @@ const tab_Nav = function (tabBtnClick){
     tabBtns[tabBtnClick].classList.add("active");
     tabs[tabBtnClick].classList.add("active")
 }
+
+tabBtns.forEach((tabBtn, i) => {
+    tabBtn.addEventListener("click", () =>{
+        tab_Nav(i);
+    })
+})

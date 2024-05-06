@@ -203,3 +203,32 @@ section{
     text-shadow: var(--text-shadow);
 }
 /* ===== MEDIA QUERIES (max-width: 1050px) ===== */
+@media screen and (max-width: 1050px){
+    section{
+        margin: 0 0px;
+    }
+    
+    .tab-nav-bar {
+        margin: 65px 20px 40px 25px;
+    }
+
+    .tab {
+        padding: 15px 25px;
+    }
+
+    .tab .row{
+        flex-direction: column;
+    }
+
+    .tab .img-card{
+        width: auto;
+        max-width: 600px;
+    }
+
+    .creator{
+        font-size:10vw;
+        padding-bottom: 50px;
+        
+        
+    }
+}
